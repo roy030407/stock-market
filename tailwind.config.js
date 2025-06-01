@@ -25,7 +25,7 @@ module.exports = {
           foreground: "hsl(var(--muted-foreground))",
         },
         card: {
-          DEFAULT: "hsl(var(--card))",
+          DEFAULT: "rgba(255, 255, 255, 0.8)", // Semi-transparent white
           foreground: "hsl(var(--card-foreground))",
         },
       },
