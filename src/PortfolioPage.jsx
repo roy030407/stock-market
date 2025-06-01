@@ -54,7 +54,7 @@ export default function PortfolioPage({ portfolio, funds, setPortfolio, setFunds
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 justify-items-center">
-        <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 w-full max-w-sm bg-white/80 backdrop-blur-sm">
+        <Card className="border-0 shadow-lg w-full max-w-4xl mx-auto backdrop-blur-sm">
           <div className="h-2 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-t-lg"></div>
           <CardHeader className="pb-2">
             <CardDescription className="text-gray-500 text-sm">Available Funds</CardDescription>
@@ -62,7 +62,7 @@ export default function PortfolioPage({ portfolio, funds, setPortfolio, setFunds
           </CardHeader>
         </Card>
 
-        <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 w-full max-w-sm bg-white/80 backdrop-blur-sm">
+        <Card className="border-0 shadow-lg w-full max-w-4xl mx-auto backdrop-blur-sm">
           <div className="h-2 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-t-lg"></div>
           <CardHeader className="pb-2">
             <CardDescription className="text-gray-500 text-sm">Portfolio Value</CardDescription>
@@ -70,7 +70,7 @@ export default function PortfolioPage({ portfolio, funds, setPortfolio, setFunds
           </CardHeader>
         </Card>
 
-        <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 w-full max-w-sm bg-white/80 backdrop-blur-sm">
+        <Card className="border-0 shadow-lg w-full max-w-4xl mx-auto backdrop-blur-sm">
           <div className="h-2 bg-gradient-to-r from-green-500 to-teal-500 rounded-t-lg"></div>
           <CardHeader className="pb-2">
             <CardDescription className="text-gray-500 text-sm">Total Value</CardDescription>
@@ -79,7 +79,7 @@ export default function PortfolioPage({ portfolio, funds, setPortfolio, setFunds
         </Card>
       </div>
 
-      <Card className="border-0 shadow-lg w-full max-w-4xl mx-auto bg-white/80 backdrop-blur-sm">
+      <Card className="border-0 shadow-lg w-full max-w-4xl mx-auto backdrop-blur-sm">
         <div className="h-2 bg-gradient-to-r from-amber-500 to-yellow-500 rounded-t-lg"></div>
         <CardHeader>
           <CardTitle className="text-gray-800 text-center">Your Holdings</CardTitle>
