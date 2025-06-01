@@ -105,7 +105,7 @@ export default function TradingPage({ portfolio, setPortfolio, funds, setFunds }
           const currentQuantity = quantities[stock.symbol] || 0;
           
           return (
-            <Card key={stock.symbol} className="hover:shadow-xl transition-all duration-300 border-0 w-full max-w-sm bg-white/80 backdrop-blur-sm">
+            <Card key={stock.symbol} className="border-0 shadow-lg w-full max-w-4xl mx-auto backdrop-blur-sm">
               <div className={`h-3 bg-gradient-to-r ${stock.color} rounded-t-lg`}></div>
               <CardHeader className="pb-2">
                 <div className="flex justify-between items-start">
